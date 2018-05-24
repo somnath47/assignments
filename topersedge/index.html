@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test App</title>
+</head>
+<body>
+
+	<h2>Please follow the steps to run task runner</h2>
+
+	<ul>
+		<li>Open Developers mode and open console in Browser</li>
+		<li>Tere are 3 tasks created</li>
+		<li>To start task runner with a task use the following syntax</li>
+		<li>t1 = new TaskRunner(ts.task1, 50000)</li>
+		<li>First param: Task | ts.task1, ts.task2, ts.task3</li>
+		<li>Second param: Ms | Time in microsecond</li>
+		<li>Start task: t1.start([Parametes set comma seperated]) | t1.start('ag1', 'ag2', 'ag3')</li>
+		<li>Reset task: t1.reset(10000) | time in microsecond</li>
+		<li>Stop task: t1.stop()</li>
+	</ul>
+
+	<hr>
+
+	<div id="taskrunner-msg"></div>
+
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
